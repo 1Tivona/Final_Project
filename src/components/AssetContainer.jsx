@@ -11,7 +11,7 @@ export default class AssetContainer extends Component {
         <div className="form-group asset-toolbar" >
           <div className="card-block">
             <h4 className="card-title">Assets</h4>
-            <p className="card-text"></p>
+            <p className="card-text">Assets to be sent via Email</p>
           </div>
           <form>
             <ul className="list-group list-group-flush">

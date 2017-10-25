@@ -131,7 +131,7 @@ export default class FormInput extends Component {
         {this.props.placeholders &&
           <form>
             <div className="form-group">
-              <label htmlFor="date">Date of Event:</label>
+              <label htmlFor="date">Date of Show:</label>
               <input className="form-control" onChange={this.updateFromField('date')}
                 type="text" id="date" placeholder="YYYY-MM-DD  *needs to be in this format*" value={this.state.date} required/>
             </div>
@@ -146,7 +146,7 @@ export default class FormInput extends Component {
                 type="text" id="venue" placeholder="Address of Venue:" value={this.state.venue}/>
             </div>
             <div className="form-group">
-              <label htmlFor="dos_contact">Day of Event Contact:</label>
+              <label htmlFor="dos_contact">Day of Show Contact:</label>
               <input className="form-control"
                 onChange={this.updateFromField('dos_contact')}
                 type="text" id="dos_contact" placeholder="Venue Contact Name:"
